@@ -10,6 +10,7 @@ Godot is a great editor for UI (grid, center, buttons, checkboxes, fonts) and sc
 ### How?
 You need a dex viewer like [JADX](https://github.com/skylot/jadx)
 You need some open licensed AIX files or Javascript source (check on community websites, you have lists of them like https://7starmedia.in/extensions-thunkable-makeroid-appybuilder-appinventor/)
+AIX is simply a zip file, inside you'll find a classes.jar or classes.dex file.
 You need some example, here it comes.
 
 ## Compared examples of "vibrate":
