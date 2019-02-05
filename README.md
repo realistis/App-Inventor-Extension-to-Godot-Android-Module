@@ -106,31 +106,31 @@ If it compiles (scons+gradlew), Add your module to /modules
 
 Godot modules, some come with implementation, some not.
 At gradlew step, If you get something like:
-Program type already present: android.support.v4.app
-you need to REMOVE the implementation line from platform/android/build.gradle.template, remove:
+`Program type already present: android.support.v4.app`
+you need to REMOVE the implementation line from `platform/android/build.gradle.template`, remove:
 implementation "com.android.support:support-core-utils:28.0.0"
 If you get:
-package android.support.v4.app does not exist
+`package android.support.v4.app does not exist`
 re-write the implementation line
 
 If it compiles, you can celebrate and keep this one to test compatibility with other Godot libraries and modules.
 You can compile a new default version with othe rgodot libraries.
 
 Add all modules you want to project.godot (previously engine.cfg)
-    [android]
+`    [android]
     modules="org/godotengine/godot/GodotVibrate","org/godotengine/godot/GodotAdMob"
 Use in gdscript
     var singleton = Globals.get_singleton("GodotVibrate")
-    singleton.doVibrate(200) # milliseconds for API<26
+    singleton.doVibrate(200) # milliseconds for API<26`
 	
-Project settings > Application → Run → Low Processor Mode (repaint only when needed) for non-game apps, but only for desktop apps for now. This will be a game changer once this function will work for mobiles!
+`Project settings > Application → Run → Low Processor Mode` (repaint only when needed) for non-game apps, but only for desktop apps for now. This will be a game changer once this function will work for mobiles!
 
 Export using the compiled template
-	Export->Target->Android
+	`Export->Target->Android`
 Custom Package (Debug/Release):
 	Point to the newly built apk
 Permissions: 
-	Vibrate (for the vibration module)
+	`Vibrate` (for the vibration module)
 
 Test your module
 
