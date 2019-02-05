@@ -25,7 +25,7 @@ You need some example, here it comes.
 https://github.com/AursunPairing/Extensions/blob/master/com.sanderjochems.Vibrate.aix
 https://github.com/literaldumb/GodotVibrate/blob/master/vibrate/GodotVibrate.java
 
-Please note, according to https://community.appybuilder.com/t/vibrate-extension/191/2, Vibrate.aix is under CC BY-ND 4.0 license (sanderjochems is the author). We do not publish or make derivative work of the extension here, we only show part of code for educational purpose only.
+Please note, according to https://community.appybuilder.com/t/vibrate-extension/191/2, Vibrate.aix is under CC BY-ND 4.0 license (sanderjochems is the author). We do not publish or make derivative work of the extension here, we only show part of code for educational purpose only (fair use).
 
 GodotVibrate is MIT licensed by Kaushik Mazumdar.
 
