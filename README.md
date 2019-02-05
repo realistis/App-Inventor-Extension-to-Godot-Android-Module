@@ -8,7 +8,7 @@ Developing a game is nice, but delivering a new kind of experience on mobile is 
 
 Android modules help developing new functions tied to mobile games and apps.
 
-Godot is a great editor for UI (grid, center, buttons, checkboxes, fonts) and screens (preloaded scenes).
+In addition to a free game engine, Godot is a great editor for UI (grid, center, buttons, checkboxes, fonts) and screens (preloaded scenes).
 
 ### How?
 You need a dex viewer like [JADX](https://github.com/skylot/jadx)
