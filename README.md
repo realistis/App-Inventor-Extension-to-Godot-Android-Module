@@ -115,7 +115,7 @@ No you have Godot source, built templates and editor right.
 
 If it compiles (scons+gradlew), Add your module to /modules
 
-### Compile minimal (your module is added by default)
+### Compile minimal+module (your module is added by default)
 	scons -j4 android_arch=armv7 platform=android target=release_debug optimize=speed tools=no use_lto=no deprecated=no gdscript=no minizip=no xaudio2=no disable_3d=yes disable_advanced_gui=yes no_editor_splash=yes builtin_bullet=no builtin_certs=no builtin_enet=no builtin_libogg=no builtin_libtheora=no builtin_libvorbis=no builtin_libvpx=no builtin_libwebp=no builtin_libwebsockets=no builtin_mbedtls=no builtin_miniupnpc=no builtin_opus=no builtin_pcre2=no builtin_recast=no builtin_squish=no builtin_thekla_atlas=no builtin_xatlas=no builtin_zlib=no debug_symbols=no separate_debug_symbols=no android_neon=no android_stl=no module_bmp_enabled=no module_bullet_enabled=no module_csg_enabled=no module_cvtt_enabled=no module_dds_enabled=no module_enet_enabled=no module_etc_enabled=no module_gdnative_enabled=no module_gdscript_enabled=no module_gridmap_enabled=no module_hdr_enabled=no module_jpg_enabled=no module_mbedtls_enabled=no module_mobile_vr_enabled=no module_mono_enabled=no module_ogg_enabled=no module_opensimplex_enabled=no module_opus_enabled=no module_pvr_enabled=no module_recast_enabled=no module_regex_enabled=no module_squish_enabled=no module_stb_vorbis_enabled=no module_svg_enabled=no module_tga_enabled=no module_thekla_unwrap_enabled=no module_theora_enabled=no module_tinyexr_enabled=no module_upnp_enabled=no module_visual_script_enabled=no module_vorbis_enabled=no module_webm_enabled=no module_webp_enabled=no module_websocket_enabled=no module_xatlas_unwrap_enabled=no config=force
 
 Godot modules, some come with implementation, some not.
@@ -136,7 +136,7 @@ re-write the implementation line
 
 If it compiles, you can celebrate and keep this one to test compatibility with other Godot libraries and modules.
 
-You can compile a new default version with othe rgodot libraries.
+You can compile a new default version with other godot libraries.
 
 Add all modules you want to project.godot (previously engine.cfg)
 
@@ -158,4 +158,4 @@ Permissions:
 Test your module
 
 # Congrats!
-Now you're module is working, you can make it a project and proudly add it here by making a PR:
+Now you're module is working, you can make it a project for others to compile with their modules and proudly add it here by making a [PR](https://github.com/realistis/App-Inventor-Extension-to-Godot-Android-Module/pulls):
