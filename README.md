@@ -13,7 +13,7 @@ In addition to a free game engine, Godot is a great editor for UI (grid, center,
 Android API evolves, Godot module evolves, benefiting from both is about sharing, wrapping both is a matter of knowledge.
 
 ### How?
-You need a dex viewer like [JADX](https://github.com/skylot/jadx)
+You need a DEX and JAR viewer like [JADX](https://github.com/skylot/jadx)
 
 You need some open licensed AIX files or Javascript source (check on community websites, you have lists of them like https://7starmedia.in/extensions-thunkable-makeroid-appybuilder-appinventor/)
 
