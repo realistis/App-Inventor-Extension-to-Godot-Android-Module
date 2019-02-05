@@ -1,5 +1,5 @@
 # App-Inventor-Extension-to-Godot-Android-Module
-This project's goal is to be a Registry and Forge help of AIX to Godot Android Module (AIX2GAM?).
+This project's goal is to be a Registry and help of AIX to Godot Android Module (AIX2GAM?).
 PR this page to add your Godot Android Module.
 
 ### Why?
