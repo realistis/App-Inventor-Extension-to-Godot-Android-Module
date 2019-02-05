@@ -125,7 +125,8 @@ At gradlew step, If you get something like:
 `Program type already present: android.support.v4.app`
 
 you need to REMOVE the implementation line from `platform/android/build.gradle.template`, remove:
-implementation "com.android.support:support-core-utils:28.0.0"
+
+`implementation "com.android.support:support-core-utils:28.0.0"`
 
 If you get:
 
@@ -138,6 +139,7 @@ If it compiles, you can celebrate and keep this one to test compatibility with o
 You can compile a new default version with othe rgodot libraries.
 
 Add all modules you want to project.godot (previously engine.cfg)
+
 `    [android]
     modules="org/godotengine/godot/GodotVibrate","org/godotengine/godot/GodotAdMob"
 Use in gdscript
@@ -155,5 +157,5 @@ Permissions:
 
 Test your module
 
-#Congrats!
+# Congrats!
 Now you're module is working, you can make it a project and proudly add it here by making a PR:
