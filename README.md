@@ -110,12 +110,14 @@ Frist, please read the doc about it at https://docs.godotengine.org/en/latest/de
 
 SDK, NDK and Godot evolve, you might need to upgrade/downgrade NDK and SDK to make it work (yep).
 
-Easiest way to get the right source with the right Godot editor (mandatory) is to download the latest Godot editor + templates from, for example, https://downloads.tuxfamily.org/godotengine/3.1/beta3/, clone https://github.com/godotengine/godot, get the right commit by reading the [README file](https://downloads.tuxfamily.org/godotengine/3.1/beta3/README.txt), and checkout at this point (for instance Github Desktop >  Repository > Open in command prompt) `git checkout -b 31b3 a8510331c0115eeee2d6ac0a4acbeb5d4df833b3`.
+Easiest way to get the right source with the right Godot editor (mandatory) is to use releases (see below). But you might have only 1 or 2 per year, so I start with latest beta.
+
+To download the latest Godot editor + templates from, for example, https://downloads.tuxfamily.org/godotengine/3.1/beta3/, clone https://github.com/godotengine/godot, get the right commit by reading the [README file](https://downloads.tuxfamily.org/godotengine/3.1/beta3/README.txt), and checkout at this point (for instance Github Desktop >  Repository > Open in command prompt) `git checkout -b 31b3 a8510331c0115eeee2d6ac0a4acbeb5d4df833b3`.
 Now your local copy is at the branch used to compile the beta.
 
-You could also get the same version if you pull your local copy, then download nightly build from https://hugo.pro/projects/godot-builds/. You might get slight changes though (since it's built once a day and you pull at a different time).
+You could also get the same version if you pull your local copy, then download nightly build from https://hugo.pro/projects/godot-builds/. You might get slight changes though (since it's built once a day and you pull at a different time), so your module might not work.
 
-For release versions, it's easier, simply download source from https://github.com/godotengine/godot/releases and built editor and templates from the provided link.
+As stated, for release versions, it's easier, simply download source from https://github.com/godotengine/godot/releases and download already built editor and templates from the provided link.
 
 No you have Godot source, built templates and editor versions right.
 
