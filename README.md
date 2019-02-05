@@ -10,6 +10,8 @@ Android modules help developing new functions tied to mobile games and apps.
 
 In addition to a free game engine, Godot is a great editor for UI (grid, center, buttons, checkboxes, fonts) and screens (preloaded scenes).
 
+Android API evolves, Godot module evolves, benefiting from both is about sharing, wrapping both is a matter of knowledge.
+
 ### How?
 You need a dex viewer like [JADX](https://github.com/skylot/jadx)
 
@@ -160,4 +162,4 @@ Permissions:
 Test your module
 
 # Congrats!
-Now you're module is working, you can make it a project for others to compile with their modules and proudly add it here by making a [PR](https://github.com/realistis/App-Inventor-Extension-to-Godot-Android-Module/pulls):
+Now you're module is working, you can make it a project and proudly add it here by making a [PR](https://github.com/realistis/App-Inventor-Extension-to-Godot-Android-Module/pulls):
