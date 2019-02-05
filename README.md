@@ -12,6 +12,8 @@ In addition to a free game engine, Godot is a great editor for UI (grid, center,
 
 Android API evolves, Godot module evolves, benefiting from both is about sharing, wrapping both is a matter of knowledge.
 
+I hope in the future, mobile modules will be easier to implement in Godot (it's wrapper and API code).
+
 ### How?
 You need a DEX and JAR viewer like [JADX](https://github.com/skylot/jadx)
 
