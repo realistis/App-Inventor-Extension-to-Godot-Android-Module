@@ -36,7 +36,9 @@ Exposed Google API code is not under someone else's license. Google's code is un
 AFAIU (but I'm not an expert), you can totally write new code about the same function for a different API (and share it without limitations).
 
 AIX wrapper is also exposed in tutorials on the net. I don't know the license (feel free to add it here).
+
 Best would be to follow Google's license to avoid license conflicts.
+
 To avoid problems, write which API version is targeted.
 
 ### Imports
