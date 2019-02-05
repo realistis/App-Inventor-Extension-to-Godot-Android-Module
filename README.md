@@ -151,11 +151,16 @@ Add all modules you want to project.godot (previously engine.cfg)
 
 `    [android]
     modules="org/godotengine/godot/GodotVibrate","org/godotengine/godot/GodotAdMob"
-Use in gdscript
+    `
+
+Use in gdscript:
+
+`
     var singleton = Globals.get_singleton("GodotVibrate")
     singleton.doVibrate(200) # milliseconds for API<26`
+	`
 	
-`Project settings > Application → Run → Low Processor Mode` (repaint only when needed) for non-game apps, but only for desktop apps for now. This will be a game changer once this function will work for mobiles!
+Project settings > Application → Run → Low Processor Mode` (repaint only when needed) for non-game apps, but only for desktop apps for now. This will be a game changer once this function will work for mobiles!
 
 Export using the compiled template
 	`Export->Target->Android`
